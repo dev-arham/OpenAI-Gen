@@ -1,4 +1,4 @@
-const openAiAPI = "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";
+const openAiAPI = "YOUR_API_HERE";
 
 async function generateImage() {
     const text = document.getElementById('input-text').value.trim();
