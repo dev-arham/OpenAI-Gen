@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Image Generator</title>
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<div class="sidebar">
-    <div class="sidebar-item">Home</div>
-    <div class="sidebar-item">About</div>
-    <div class="sidebar-item">Contact</div>
-</div>
-<div class="chat-container">
-    <div class="chat-header">
-        AI Generator
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="sidebar-item">Home</div>
+      <div class="sidebar-item">About</div>
+      <div class="sidebar-item">Contact</div>
     </div>
-    <div class="chat-messages" id="output">
+    <div class="chat-container">
+      <div class="chat-header">AI Generator</div>
+      <div class="chat-messages" id="output">
         <!-- Chat messages will be appended here -->
-    </div>
-    <div class="chat-input-container">
-        <input type="text" class="chat-input" id="input-text" placeholder="Type your message...">
+      </div>
+      <div class="chat-input-container">
+        <input
+          type="text"
+          class="chat-input"
+          id="input-text"
+          placeholder="Type your message..."
+        />
         <div>
-            <button class="send-btn" onclick="generateImage()">Image</button>
-            <button class="send-btn" onclick="generateText()">Text</button>
+          <button class="send-btn" onclick="generateImage()">Image</button>
+          <button class="send-btn" onclick="generateText()">Text</button>
         </div>
+      </div>
     </div>
-</div>
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
